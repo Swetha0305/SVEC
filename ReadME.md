@@ -70,3 +70,6 @@
 		- legend
 		- sup
 		- sub
+		- u1
+### reference links for images
+- flaticon
