@@ -96,6 +96,7 @@ selector{
 ...
 ### Selectors
 - simple selectors
+	- universal selector(*)
 	- By element name
 	- Grouping Selector(, - as seperator)
 	- Class Selector(.)
@@ -108,6 +109,13 @@ selector{
 - Psuedo code selector
 - Psuedo element selector
 - Attribute selector
+
+### Box Model
+- margin
+- border
+- padding
+- width
+- 1rem:16px
 ### reference links for images
 - flaticon
 - color codes[https://htmlcolorcodes.com/]
