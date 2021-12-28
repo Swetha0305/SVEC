@@ -114,6 +114,10 @@ selector{
 - margin
 - border
 - padding
+	- padding :10px(for all adjacent sides)
+	- padding :10px 30px(10px for top & bottom;30px for left &right)
+	- padding :10px 300px 50px(10px for top;300px for left & right;50px for bottom)
+	- padding :10px 30px 4px 50px(top;right;bottom;left)
 - width
 - 1rem:16px
 ### reference links for images
