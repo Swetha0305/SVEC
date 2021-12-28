@@ -71,5 +71,44 @@
 		- sup
 		- sub
 		- u1
+
+### Task
+- audio
+- video
+- canvas
+- progress
+- meter
+- data list
+- select(drop down)
+- By using Html we display our project in browser
+
+### CSS
+- Cascading Style Sheets-to beautify the project
+- there are three ways
+	- Inline CSS
+	- Internal CSS
+	- External CSS
++ Syntax of CSS(for internal and external)
+...
+selector{
+	css properties
+}
+...
+### Selectors
+- simple selectors
+	- By element name
+	- Grouping Selector(, - as seperator)
+	- Class Selector(.)
+	- Id selector(#)
+- Combinators
+	 - Descendant Selector( ) to apply styles for particular element
+	 - child selector(>)
+	 - Adjacent sibling selector(+)
+	 - General sibling selector(~)
+- Psuedo code selector
+- Psuedo element selector
+- Attribute selector
 ### reference links for images
 - flaticon
+- color codes[https://htmlcolorcodes.com/]
+- webaim[https://webaim.org/resources/contrastchecker/](contrast checker)
