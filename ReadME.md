@@ -120,6 +120,31 @@ selector{
 	- padding :10px 30px 4px 50px(top;right;bottom;left)
 - width
 - 1rem:16px
+### task 2
+### responsive web design 
+### flex box
+- display
+    - flex
+		- flex wrap
+		- justify content
+		- flex-direction
+		- flex-flow
+	- none
+	- inline
+	- block
+	- inline-block
+- position
+	- static
+	- relative
+	- absolute
+	- fixed
+	- sticky
+- align content
+- align items
+- align self
+### Task2
+- index.html
+- 
 ### reference links for images
 - flaticon
 - color codes[https://htmlcolorcodes.com/]
