@@ -110,7 +110,7 @@ selector{
 - Psuedo element selector
 - Attribute selector
 
-### Box Model
+### Box Modal
 - margin
 - border
 - padding
@@ -121,6 +121,7 @@ selector{
 - width
 - 1rem:16px
 ### task 2
+### Animations
 ### responsive web design 
 ### flex box
 - display
@@ -144,8 +145,84 @@ selector{
 - align self
 ### Task2
 - index.html
-- 
+- Register.html
+- Login.html
+### Media Queries
+- Extra small devices(Mobiles)
+	- max-width:600px
+- small devices(Large phones)
+	- min-width:600px
+	- max-width:768px
+- Medium devices(Small Laptops)
+	- min-width:768px
+	- max-width:992px
+- Large devices(Large Laptops or Desktops)
+	- min-width:992px
+- Extra large devices(LED Displays)
+	- min-width:1200px
+
+```
+@media only screen(max-width:320px){
+	CSS code
+}
+```
+``` if we want to take more break points then
+@media only screen(min-width:320px) and (max-width:500px){
+	CSS code
+}
+```
+### Bootstrap 4.6
+
+- It is a CSS framework(client side)
+
+Task3:
+====
+ 	- Navbar with Responsive
+- module(collection of functions and we can maintain classes and objects also)
+- Package(collection of modules)
+- Library(collection of packages)
+	- Reactjs is a Library
+- framework(collection of library)
++ module-->Package-->Library-->Framework
+
++ Type of Modes
+	- offline
+	- online
+		- CDN links
+
++ background-color - bg-clor
++ text-white
++ Margin in Bootstrap(m-*(0,5))
+	- 0 --> 0rem
+	- 1 --> 0.25rem(4 px)
+	- 2 -->0.5rem(8 px)
+	- 3 --> 1 rem(16px)
+	- 4 --> 1.5rem(24px)
+	- 5 -->3rem(48px)
+	-  ml-5(Margin-left)
+	-  m(margin in all diections)
+	- mb (margin-bottom)
+	- mt(margin-top)
+	- mr (margin -right)
++ Padding (Padding-left-->pl-5)
++ colors
+	- primary
+	- secondary
+	- info
+	- success
+	- warning
+	- danger
+	- light
+	- dark
+	- white
++ we can use color classes for
+	- Buttons (btn btn- primary)
+	- text (text-white)
+	- background (bg-secondary)
+	- alerts (alert alert-primary)
 ### reference links for images
 - flaticon
 - color codes[https://htmlcolorcodes.com/]
 - webaim[https://webaim.org/resources/contrastchecker/](contrast checker)
+- svgicons
+- https://getbootstrap.com/(for bootstrap)
