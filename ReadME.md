@@ -220,6 +220,13 @@ Task3:
 	- text (text-white)
 	- background (bg-secondary)
 	- alerts (alert alert-primary)
++ Grid System
+	- col-sm-12
+	- sm (small devices)
+	- md (medium devices)
+	- lg (large devices)
+	- xl (Extra large devices)
+	- 
 ### reference links for images
 - flaticon
 - color codes[https://htmlcolorcodes.com/]
