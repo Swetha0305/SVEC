@@ -86,13 +86,66 @@
 // console.log(data)
 //Destructuring of object
 
- let employee={
-    uname:"Sujith",
-     designation:"Junior Doctor",
-     salary:"12 LPA",
-     mobile:9039023902
- }
- let{uname,designation,...remainList}=employee;
- console.log(uname);
- console.log(designation);
- console.log(remainList);
+//  let employee={
+//     uname:"Sujith",
+//      designation:"Junior Doctor",
+//      salary:"12 LPA",
+//      mobile:9039023902
+//  }
+//  let{uname,designation,...remainList}=employee;
+//  console.log(uname);
+//  console.log(designation);
+//  console.log(remainList);
+
+
+//Functions
+
+// let demo=function(x,y){
+//     return x+y
+// }
+// console.log(demo(3,4))
+
+// (function(x,y){
+//     return x*y
+// })()
+
+// setTimeout(function(){
+//     console.log("Welcome")
+// },3000)
+// console.log(demo(3,4))
+// Arrow function
+// let demo= (x,y)=>{
+//     return x*y
+// }
+// console.log(demo(3,4))
+
+let employees=["Dhanush","Pavan","Harika","Bhaaru"]
+// for(let i=0;i<employees.length;i++){
+//     console.log(employees[i])
+// }
+// for-in
+// for(let i in employees){
+//     console.log(i)
+// }
+// for-of
+// for (let i of employees){
+//         console.log(i)
+// }
+
+//forEach()
+//  let result=employees.forEach(function(element,index){
+//        console.log(element+"ok")
+//     })
+   
+//map()
+// let result=employees.map(function(element,index){
+//     return element+" k"+index
+// })
+// console.log(employees)
+// console.log(result)
+
+let result=employees.map((element,index)=>{
+    return element+" k"+index
+     })
+    // console.log(employees)
+     console.log(result)

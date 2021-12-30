@@ -296,6 +296,69 @@ Task3:
 
 + Destructuring of Array & Objects
 
+
++ Functions
+	-  function with function name
+	```
+	function demo(x,y){
+		return x+y
+	}
+	demo()
+	```
+	- Anonymous function
+	```
+	let demo=function (x,y)
+	{
+		return x+y
+	}
+
+	- Arrow function
+	```
+	let demo= (x,y)=>{
+		return x*y
+	}
+	demo(3,4)
+	```
++ for-in
+	- To get indexvalues of an array
++	for-of
+	- To get elements in an array
++ for-Each()-->(ES-5)
+	- it wont assign value but prints value
++ map()-->(ES-6)
+
+### DOM methods
+	- getElementById
+	- querySelector
+	- getElementByclassName
+- `INNERTEXT`
+- `TEXTCONTENT`
+- `APPEND`
+- `APPENDCHILD`
+- `INNERHTML`
+- `Set ATTRIBUTE`
+- `classList`
+- `style`
+- `src`
+
+- Document Object Model
+- Document()
+- History
+- Window(alerts )
+- Navigator(to store info without internet access)
+### JSON
++ JavaScriptObjectNotation
+	- To exchange info between application and server
+
+```
+	{
+		"name":"Swetha Sarabu",
+		"salary":"6.5LPA",
+		"Designation":"MERN Developer",
+		"mobile":9807654321
+	}
+	```
++ Ajax call or Promises(fetch API) or axios
 ### reference links for images
 - flaticon
 - color codes[https://htmlcolorcodes.com/]

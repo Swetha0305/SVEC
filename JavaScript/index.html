@@ -9,6 +9,11 @@
    
 </head>
 <body>
+    <div class="main">
+        <div class="child">
+            <h2 id="demo">Heading2 <span>Text</span><a href="">Link</a></h2>
+        </div>
+    </div>
     <script>
         // console.log("Welcome")
 
@@ -28,6 +33,15 @@
             //console.log(name)
         }
         //console.log(name2)
+var main=document.querySelector(".main");
+var child=document.querySelector(".Child");    
+
+        var heading=document.createElement('h1');
+        heading.textContent="Welcome";
+        main.appendChild(heading);
+        main.appendChild(child);
+        var content=document.getElementById("demo").innerHTML;
+        console.log(content);
     </script>
 </body>
 </html>
