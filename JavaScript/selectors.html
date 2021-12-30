@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>:: Css Selectors::</title>
+    <style>
+        *{
+            /* border:10px solid lightblue */
+            font-size: 25px;
+        }
+        div p{
+            background-color: greenyellow;
+            color: indigo;
+        }
+        div > p{
+            background-color: indigo;
+            color: ivory;
+        } 
+        section+p{
+            background-color: rgb(18, 51, 240);
+            color: rgb(231, 247, 231);
+
+        }
+         div~p{ 
+            background-color: brown;
+         } 
+         p:first-letter{
+             font-size: 100px;
+         }
+    </style>
+</head>
+<body>
+    <div>
+        <p>Paragraph 1</p>
+        <p>paragraph 2</p>
+            <div>
+                <p>paragraph 3</p>
+            </div>
+            <section>
+               <p>paragraph</p> 
+            </section>
+        <P>PARAGRAPH</P>
+        <p>paragraph 4</p>
+        <p>paragraph 5</p>
+        
+    </div>
+    <p>css psuedo class selector</p>
+   <h5 style="background-color: black;color: aliceblue;font-size:100px ">Heading5</h5> 
+</body>
+</html>
