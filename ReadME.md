@@ -226,7 +226,76 @@ Task3:
 	- md (medium devices)
 	- lg (large devices)
 	- xl (Extra large devices)
-	- 
++ Modal
++ Table
+### JavaScript
++ To apply dynamic behaviour to web page.
++ It is a text based Programming language and we can use in client side and server side(Node.JS) for dynamic web applications.
++ JavaScript loosely touple(no need to mention data type) and dynamic(to interact with ) language.
++ In 1995 `Brendin Eich ` introduced JavaScript(ES-262)
+	- ECMA-Script (Eureopen computer manufacture association )(ES-6)
+	- let & constant
+	- to create any variable we use `var`
+	- map() function(for iteration , it is default function)
+	- arrow function
+	- classes
+	- spread operator
+	- rest parameter
++ Datatypes
+	- Number
+	- BigInt(2^53-1)
+	- String
+	- Boolean
+	- Undefine(We wont assign any value)
+	- Null
+	- Object
+	- Array
++ Variables
+	- var,let & const(using const keyword we cant define)
+	- Scope
+		- functionlevel-->var
+		- block level-->let & const
+	- Redefine-->var,let
+	- Redeclare-->only with var
++ `typeof()`
++ Object
+```
+{
+	name:"Swetha"
+}
+
+
+```
++ Array
+### Alerts
+
++ To generate notifications
+	- alert 
+	- prompt(to take input from the user)
+	- confirm
+
++ console statements
+	- `console.log()`
+	- `console.info()`
+	- `console.warn()`
+	- `console.error()`
+
++ Spread Operator
+	- to handle elements
+	- to change array elements from one array to another(swap)
+...
+	...variable Name
+...
+
++ Rest Parameter
+	+ To handle function parameters
+
+	...
+	...variable
+	...
+
++ Destructuring of Array & Objects
+
 ### reference links for images
 - flaticon
 - color codes[https://htmlcolorcodes.com/]
