@@ -372,6 +372,47 @@ Task3:
 +  It provides JSX.
 + Unidirectional data flow
 + We can implement Single Page Applications(only one html page i.e. index.html)
++ props
+	- To pass data from one component to another component we will use props
+	- props are immutable
+
+
++ Union  bank(Functional)
+	- Andhra Bank (Functional)
+	- Corporation Bank(Class)
+
++ States
+-	In react to maintain information we will use States
+-   We can maintain states in class components only (before react 16.8 version) //Stateful component is alos a class component
+-	To take state in react,Try to create constructor above render method
+```
+constructor(){
+	super();
+	this.super={
+
+	}
+}
+```
+-	To update the state information in class component use `setState` method
+
++ To update the information in class class component we have to follow component life cycle methods
+	- `componentWillRecieveProps()`
+	- `componentWillMount()`
+	- `componentDidMount()`
+	- `ShouldcomponentUpdate()`
+	- `componentWillUpdate()`
+	- `componentDidUpdate()`
+	- `componentWillUnMount()`
+### Hooks
+
++ from react16.8 Hooks are introduced
+
+- Parent - child1 --> child2 --> child3
+- `useState()`
+- `useEffect()`
+- `useMemo()`
+- `useRef()`
+- `useContext()`
 + Project Environment  setup
 	- Download Visual Studio Code
 	- we have to download node.js[https://nodejs.org/en/download/]
