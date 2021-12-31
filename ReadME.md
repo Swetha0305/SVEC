@@ -359,6 +359,73 @@ Task3:
 	}
 	```
 + Ajax call or Promises(fetch API) or axios
+
+#### ReactJs
+
++ It is a Library.
++ It follows component based Architecture.
+	- Function component
+	- Class component
+	- Pure component
+	- Higher order component
++ It provides Virtual DOM
++  It provides JSX.
++ Unidirectional data flow
++ We can implement Single Page Applications(only one html page i.e. index.html)
++ Project Environment  setup
+	- Download Visual Studio Code
+	- we have to download node.js[https://nodejs.org/en/download/]
+	- install nodejs and check versions of `node` and `npm`
+		- `node -v`
+		- `npm -v`
+	- `webpack` and `babel`
+	- `create-react-app`
+		- `npm install create-react-app`  (using single command)(node package management)
+			- `create-react-app projectname`
+	- `npx create-react-app appname`
+
++ Index.html
++ Index.js
++ App.js
+	+ Index page
+		- nav.js
+		- body.js
+		- footer.js
+
+	+ Home.js
+		- nav 
+		- body
+		- footer
+	+ Login.js
+	+ Register
+	+ About
+	+ Contact
+### Functional Component
+- ```function Functional(){
+
+    return(
+    <h1>Functional Component</h1>
+
+    );
+}
+
+export default Functional;```
+### Class Component
+```
+import React,{Component} from "react";
+
+class ClassComponent extends Component{
+
+    render(){
+        return(
+            <h1>Class Component</h1>
+        )
+    }
+}
+export default ClassComponent;
+```
+
+
 ### reference links for images
 - flaticon
 - color codes[https://htmlcolorcodes.com/]
