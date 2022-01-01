@@ -1,16 +1,11 @@
-// import logo from './logo.svg';
-// import './App.css';
+import React from 'react'
+import ListRendering from './components/ListRendering'
 
-import ClassComponent from "./components/ClassComponent";
-
-function App() {
+export default function App() {
   return (
     <div>
-    <h1>Welcome</h1>
-    <ClassComponent/>
-   
+      <ListRendering/>
     </div>
-  );
+  )
 }
 
-export default App;
