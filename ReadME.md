@@ -487,6 +487,17 @@ export default ClassComponent;
 + Redux 	
 + To design dynamic user interface for webpage we use components.
 
+- uname
+- pword
+- email
+	- submit
+- update
+	- uname --->null
+	- pword ---> password
+	- email --->email
+
+	 - submit
+
 
 ### reference links for images
 - flaticon
