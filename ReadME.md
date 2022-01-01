@@ -406,6 +406,7 @@ constructor(){
 ### Hooks
 
 + from react16.8 Hooks are introduced
++ To maintain information in Functional  component we use Hooks.
 
 - Parent - child1 --> child2 --> child3
 - `useState()`
@@ -424,8 +425,7 @@ constructor(){
 		- `npm install create-react-app`  (using single command)(node package management)
 			- `create-react-app projectname`
 	- `npx create-react-app appname`
-
-+ Index.html
+	+ Index.html
 + Index.js
 + App.js
 	+ Index page
@@ -465,6 +465,27 @@ class ClassComponent extends Component{
 }
 export default ClassComponent;
 ```
+
+
+### List Rendering
+#### Form Handling and Event Handling
+
+- `onChange`
+- `onSubmit`
+- `preventDefault`
+
+### Routing in react
+
++ To navigate (Route) from one component to another
+	- install `react-router-dom` package by using `npminstall react-router-dom`
+	- `BrowserRouter`
+	- `Routes`
+	- `Route`
+	- `link`
+	- `path`
+	- `element`
++ Redux 	
++ To design dynamic user interface for webpage we use components.
 
 
 ### reference links for images
