@@ -1,4 +1,5 @@
 import React,{Component} from "react";
+import '../'
 
 class ClassComponent extends Component{
 
